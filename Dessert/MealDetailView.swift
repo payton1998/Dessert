@@ -28,7 +28,6 @@ struct MealDetailView: View {
                         .font(.headline)
                         .padding(.top)
                     
-                    // Display ingredients
                     ForEach(1...20, id: \.self) { index in
                         let ingredient = mealDetail.getIngredient(at: index)
                         let measurement = mealDetail.getMeasurement(at: index)
