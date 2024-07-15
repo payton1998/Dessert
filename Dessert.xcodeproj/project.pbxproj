@@ -11,6 +11,9 @@
 		B4FB1E7B2C446E1400A28EF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FB1E7A2C446E1400A28EF9 /* ContentView.swift */; };
 		B4FB1E7D2C446E1800A28EF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4FB1E7C2C446E1800A28EF9 /* Assets.xcassets */; };
 		B4FB1E802C446E1800A28EF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4FB1E7F2C446E1800A28EF9 /* Preview Assets.xcassets */; };
+		B4FB1E872C446E7200A28EF9 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FB1E862C446E7200A28EF9 /* MealDetailView.swift */; };
+		B4FB1E892C446E9B00A28EF9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FB1E882C446E9B00A28EF9 /* NetworkManager.swift */; };
+		B4FB1E8B2C446EBD00A28EF9 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FB1E8A2C446EBD00A28EF9 /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		B4FB1E7A2C446E1400A28EF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B4FB1E7C2C446E1800A28EF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4FB1E7F2C446E1800A28EF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4FB1E862C446E7200A28EF9 /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
+		B4FB1E882C446E9B00A28EF9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B4FB1E8A2C446EBD00A28EF9 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,9 @@
 		B4FB1E772C446E1400A28EF9 /* Dessert */ = {
 			isa = PBXGroup;
 			children = (
+				B4FB1E8A2C446EBD00A28EF9 /* Meal.swift */,
+				B4FB1E882C446E9B00A28EF9 /* NetworkManager.swift */,
+				B4FB1E862C446E7200A28EF9 /* MealDetailView.swift */,
 				B4FB1E782C446E1400A28EF9 /* DessertApp.swift */,
 				B4FB1E7A2C446E1400A28EF9 /* ContentView.swift */,
 				B4FB1E7C2C446E1800A28EF9 /* Assets.xcassets */,
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4FB1E8B2C446EBD00A28EF9 /* Meal.swift in Sources */,
+				B4FB1E892C446E9B00A28EF9 /* NetworkManager.swift in Sources */,
+				B4FB1E872C446E7200A28EF9 /* MealDetailView.swift in Sources */,
 				B4FB1E7B2C446E1400A28EF9 /* ContentView.swift in Sources */,
 				B4FB1E792C446E1400A28EF9 /* DessertApp.swift in Sources */,
 			);
