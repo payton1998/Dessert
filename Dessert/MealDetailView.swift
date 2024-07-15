@@ -15,9 +15,9 @@ struct MealDetailView: View {
                         image
                             .resizable()
                             .scaledToFit()
-                            .frame(height: 200) // Adjust the height as needed
+                            .frame(height: 200)
                     } placeholder: {
-                        ProgressView() // Loading indicator
+                        ProgressView() 
                     }
                     
                     Text("Instructions: \(mealDetail.strInstructions)")

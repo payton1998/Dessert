@@ -20,9 +20,9 @@ struct ContentView: View {
                                 image
                                     .resizable()
                                     .scaledToFit()
-                                    .frame(width: 50, height: 50) // Set desired image size
+                                    .frame(width: 50, height: 50)
                             } placeholder: {
-                                ProgressView() // Loading indicator
+                                ProgressView()
                             }
                             
                             Text(dessert.strMeal)
