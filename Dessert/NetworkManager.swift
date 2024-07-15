@@ -13,8 +13,7 @@ class NetworkManager {
     func fetchDesserts(completion: @escaping ([Meal]) -> Void) {
         let urlString = "https://themealdb.com/api/json/v1/1/filter.php?c=Dessert"
         guard let url = URL(string: urlString) else { return }
-        //delete
-        print("Url String \(urlString)")
+        
         URLSession.shared.dataTask(with: url) { data, _, error in
             guard let data = data, error == nil else { return }
             do {
